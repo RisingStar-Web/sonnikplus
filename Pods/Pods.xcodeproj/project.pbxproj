@@ -1,0 +1,1083 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008B22CE269DF0502434CE849725F345 /* NSProcessInfo+RMActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB9BE427CAD08FAA66A4647A0DAB13D /* NSProcessInfo+RMActionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		06C5F39364549655E896F20F95E76944 /* SBJson5StreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 754261B0E5361528631DE880CD8725B9 /* SBJson5StreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08E5644C94C68BFE777C2762A06B673B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45E2DBBA89E7CA2B439C009A4569FBE /* QuartzCore.framework */; };
+		0911DF5E9EFBEFB93314AD4DF914CFF8 /* RMAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DD047F6E40FF6551F7548A1A4CBEE0 /* RMAction.m */; };
+		12AC079C08DE6469BDD8325A22A4545A /* RMActionControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782DC6E83783F67AB4C463A5E2D21A6 /* RMActionControllerTransition.m */; };
+		14E568B00CBAAF27664CA799DC0A3130 /* RMActionControllerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A5386400EF4E7A4C046ECD95A6754C15 /* RMActionControllerTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A73416AEE54FB9403C49A58F3D7AD19 /* SBJson5StreamWriterState.h in Headers */ = {isa = PBXBuildFile; fileRef = BCBB664F178F68A3FDE2415BB79E37B3 /* SBJson5StreamWriterState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E17CC78630853EE3F2C61F1F3B51581 /* SBJson5Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 417E6706F33CB1BB18C658CB0748E995 /* SBJson5Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F4ADE47CEE262676EB6AD4C57B75097 /* SBJson5StreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = E92378D56A9BAA278FF9C2476E2A287B /* SBJson5StreamWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24814C2D291BE7EE0556949D19417169 /* RMScrollableGroupedAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A71965EEDC497DFD2DECCB7144F5984E /* RMScrollableGroupedAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26B7F2CD0547E58D0D4BE63EF21D4016 /* RMActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEDB04529220CF06B5E17A1B5D2881B /* RMActionController.framework */; };
+		29FEF8E83DD1157174AEAF38A150235E /* SBJson5StreamTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = B3CEBE8C7C50694441C034FD0848C907 /* SBJson5StreamTokeniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BE7B1460EF4C07963C80E026D3B29E0 /* UIView+RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31436615EB844C3F0B4FC356766C2491 /* UIView+RMActionController.m */; };
+		2E3405109996F97E7CE1A6E6FDA553C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA4ADE95EE56E14DF7A4E573F31B1B0 /* Foundation.framework */; };
+		41D44C20D06BA9A8BCC1E7A092D17457 /* NSProcessInfo+RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 955DD93D5F1FB9B134F2BA22B356949F /* NSProcessInfo+RMActionController.m */; };
+		4E590E44DC44D41E6D885C850E935D3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141DD0E20DABAB6AA831C79639F0E94F /* CoreGraphics.framework */; };
+		4EF6DA1476E7943BD34BBF53B0D448F5 /* RMDateSelectionViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 231E8C9BAC8BB38108FC9E3260574852 /* RMDateSelectionViewController-dummy.m */; };
+		53B44B2447B6B2D2A3C826225CEC72E6 /* RMAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C74968A44789F9FBDB56D03491231A5 /* RMAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F5DF9F3C3ACE8AEE8A27BD2439704F /* SBJson5StreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D480025A9AADCAD04CA54488A788AA0 /* SBJson5StreamParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5E8538A889EC73B41C877FB38A8B38C2 /* SBJson5Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D4277149FB77536238B9050AC81D95 /* SBJson5Parser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		61990A5577A621CB90071D03D676FC52 /* RMActionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A65BEB57D4A48252123C5E9A3FAC7BB /* RMActionController-dummy.m */; };
+		73727D1D58078AB16733A715EE9AFECA /* Pods-sonnikplusfree-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18AF9DE3C11A94F7A8A5B8CA0F299628 /* Pods-sonnikplusfree-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C23770F8117BA7C8D0323F980FA42B7 /* RMActionController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5203C60CE78503CBF405FA25F789045 /* RMActionController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C4055ED8C143BFCD482F48EDDF275EB /* RMDateSelectionViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA8AE4EE4B43B981A75DD6D25EE1C90 /* RMDateSelectionViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9883D79E49720FCDF7366CC98E998896 /* SBJson5StreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9373AC20B608794B31A25AAD2F6D9E /* SBJson5StreamTokeniser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9DD801491C09E555C3C9ED02B272AB45 /* SBJson5.h in Headers */ = {isa = PBXBuildFile; fileRef = 72169B3A23D13B8DF39E4828D313B6EA /* SBJson5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A05D7A7E470E56150B33C024FE13B4F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA4ADE95EE56E14DF7A4E573F31B1B0 /* Foundation.framework */; };
+		A22A638FCFB9AF58458CBCC458DCE802 /* RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4DE9C2D9C68773B61EE634E15A806C /* RMActionController.m */; };
+		B2DF7BD75306C8FD5192D210D0CC2773 /* RMAction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1F54FB2F32775BD6485D4112697609 /* RMAction+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B564E266643C769F1AC2B0301BBE5F99 /* SBJson5Writer.m in Sources */ = {isa = PBXBuildFile; fileRef = E88E1477D1994B9DC6AC3AD03654CE98 /* SBJson5Writer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BA50284AFA0D06E0328E002EAE96A2A4 /* SBJson5StreamParserState.h in Headers */ = {isa = PBXBuildFile; fileRef = 145CAAAE23934BFEC2E8A39EE80C1FCE /* SBJson5StreamParserState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBAA9B33FACC23E6EB71C5795990AF4B /* SBJson5Writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2E87740DF6C111F7B0ED515658F7C6 /* SBJson5Writer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF1E28A40F72A8BDDEE5D47E09A6870D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA4ADE95EE56E14DF7A4E573F31B1B0 /* Foundation.framework */; };
+		C079CCF335568E6CDFC720E905399693 /* RMGroupedAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D97D94A75C5397803E4CA75DB943785B /* RMGroupedAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB95FF28DEEDC09CAF26DE1B464033FE /* RMGroupedAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E596C8358DBC6F5CD0D7ED9F4EB436 /* RMGroupedAction.m */; };
+		D3948A6F55E96C24A3B2E250B6AE807D /* Pods-sonnikplusfree-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC437AE0CB147D1F04A3A288141EB2B3 /* Pods-sonnikplusfree-dummy.m */; };
+		D676D1D216AF7F9313E71D2786100C20 /* SBJson5StreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBD5DD27C78B12C3C2F0B8D62A36B56 /* SBJson5StreamWriterState.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D93F7AE6F13FF69024C29B4C904D5363 /* RMDateSelectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DE86522D4C3A323EF88B5A05B14EA01 /* RMDateSelectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0AFC3329B7578429811DD5418DB0286 /* RMDateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E006D9B9A9CB21CC0F5BEBEC06C0C350 /* RMDateSelectionViewController.m */; };
+		E2337EAB1E841F2BC4B10F084A35E814 /* SBJson5StreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C94B5DDE9E4620A40FCB109D5F842E /* SBJson5StreamWriter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E9CB6D75A7F10AF8F440E3BF13ACF2F3 /* SBJson5StreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = A2616803803601591D9F77E2F4452E3D /* SBJson5StreamParserState.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EB4A3DD764B9E7B852D28CCBEA69E202 /* UIView+RMActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C4E512F670797B655CAB9A6E320DDF /* UIView+RMActionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB511A7A446023400EC4175447EEEEAB /* SBJson-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A701ADCD2DBFC866F1B7A7AAEE48B37 /* SBJson-dummy.m */; };
+		EBD3C5870E7CD6196BDF9F6C3B58D660 /* RMImageAction.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CFC4BA74D1931A1793A7101B38BCAB /* RMImageAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECD9D59414DCED93897AF1375BC46D4A /* RMActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45059B2C0325D2B9EE08702EF9270479 /* RMActionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0C2CDA6DDFF29E60A018BA5AA26CE02 /* RMImageAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 269DA67761E21D79EBB2AA6F492486F3 /* RMImageAction.m */; };
+		F0FCF70DADB31ADD408EFF1097854518 /* RMScrollableGroupedAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5F9DA36806D5CC7D31BCC3609AAF85 /* RMScrollableGroupedAction.m */; };
+		F886369FD3987EEE9F3BFE534C2A01B9 /* RMActionController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D53CF14E73EBA3A4C1D36CD48CD3B653 /* RMActionController+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F9D2946F049D717BAAAB52F8A941B519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA4ADE95EE56E14DF7A4E573F31B1B0 /* Foundation.framework */; };
+		FB640AD16C2EBCB068923628EB27B031 /* SBJson-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0FF9AC0A79D39EDAF0A8AE4284EE97 /* SBJson-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FFB7D17CF3DE0668F3B0D4E6F61001E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FB7A84A6478260686277FEF687F8B4;
+			remoteInfo = SBJson;
+		};
+		45820205F740072E27EE583C2FD637FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 827A1FF3A7B59A7D0D5FAEF9F4F80D2B;
+			remoteInfo = RMDateSelectionViewController;
+		};
+		7A238D7543F26B8AD8D4E39CFEFD1022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2017E61AD618DCB7EE58F8E509625A8F;
+			remoteInfo = RMActionController;
+		};
+		C8436AA8879F96F6B67B3DE6DD3B1BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2017E61AD618DCB7EE58F8E509625A8F;
+			remoteInfo = RMActionController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		096682A4E52FF9D765C029006194D1A9 /* Pods-sonnikplusfree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sonnikplusfree.release.xcconfig"; sourceTree = "<group>"; };
+		141DD0E20DABAB6AA831C79639F0E94F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		145CAAAE23934BFEC2E8A39EE80C1FCE /* SBJson5StreamParserState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5StreamParserState.h; path = Classes/SBJson5StreamParserState.h; sourceTree = "<group>"; };
+		18AF9DE3C11A94F7A8A5B8CA0F299628 /* Pods-sonnikplusfree-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sonnikplusfree-umbrella.h"; sourceTree = "<group>"; };
+		1C1F54FB2F32775BD6485D4112697609 /* RMAction+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RMAction+Private.h"; path = "RMActionController/Private/RMAction+Private.h"; sourceTree = "<group>"; };
+		1E2E87740DF6C111F7B0ED515658F7C6 /* SBJson5Writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5Writer.h; path = Classes/SBJson5Writer.h; sourceTree = "<group>"; };
+		2093124C86838081C9F6555A77265F09 /* Pods-sonnikplusfree-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sonnikplusfree-acknowledgements.markdown"; sourceTree = "<group>"; };
+		231E8C9BAC8BB38108FC9E3260574852 /* RMDateSelectionViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMDateSelectionViewController-dummy.m"; sourceTree = "<group>"; };
+		269DA67761E21D79EBB2AA6F492486F3 /* RMImageAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMImageAction.m; path = RMActionController/Actions/RMImageAction.m; sourceTree = "<group>"; };
+		29B0896E224D3551E2495E518CD33D15 /* Pods-sonnikplusfree-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sonnikplusfree-frameworks.sh"; sourceTree = "<group>"; };
+		2BA4ADE95EE56E14DF7A4E573F31B1B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2C74968A44789F9FBDB56D03491231A5 /* RMAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMAction.h; path = RMActionController/Actions/RMAction.h; sourceTree = "<group>"; };
+		2FEDB04529220CF06B5E17A1B5D2881B /* RMActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31436615EB844C3F0B4FC356766C2491 /* UIView+RMActionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RMActionController.m"; path = "RMActionController/Categories/UIView+RMActionController.m"; sourceTree = "<group>"; };
+		31BE2417B2271BA61AD65689D82438B6 /* RMDateSelectionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RMDateSelectionViewController.modulemap; sourceTree = "<group>"; };
+		372576338328AF306F95F2906AB5E864 /* RMActionController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMActionController.xcconfig; sourceTree = "<group>"; };
+		3D4DE9C2D9C68773B61EE634E15A806C /* RMActionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMActionController.m; path = RMActionController/RMActionController.m; sourceTree = "<group>"; };
+		417E6706F33CB1BB18C658CB0748E995 /* SBJson5Parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5Parser.h; path = Classes/SBJson5Parser.h; sourceTree = "<group>"; };
+		42658A08A293802D4AE3B2B488708437 /* RMDateSelectionViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMDateSelectionViewController.xcconfig; sourceTree = "<group>"; };
+		42D4277149FB77536238B9050AC81D95 /* SBJson5Parser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5Parser.m; path = Classes/SBJson5Parser.m; sourceTree = "<group>"; };
+		45059B2C0325D2B9EE08702EF9270479 /* RMActionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMActionController.h; path = RMActionController/RMActionController.h; sourceTree = "<group>"; };
+		477EF4A5D166F400965FFCBC3956A8D1 /* SBJson-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SBJson-Info.plist"; sourceTree = "<group>"; };
+		4AA8AE4EE4B43B981A75DD6D25EE1C90 /* RMDateSelectionViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMDateSelectionViewController-umbrella.h"; sourceTree = "<group>"; };
+		4EBD5DD27C78B12C3C2F0B8D62A36B56 /* SBJson5StreamWriterState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5StreamWriterState.m; path = Classes/SBJson5StreamWriterState.m; sourceTree = "<group>"; };
+		5909420E9A0372BCE0B267A16923B45B /* SBJson-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBJson-prefix.pch"; sourceTree = "<group>"; };
+		61DD047F6E40FF6551F7548A1A4CBEE0 /* RMAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMAction.m; path = RMActionController/Actions/RMAction.m; sourceTree = "<group>"; };
+		6A65BEB57D4A48252123C5E9A3FAC7BB /* RMActionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMActionController-dummy.m"; sourceTree = "<group>"; };
+		6CFE0C9040A06185F837D6D253190007 /* RMDateSelectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RMDateSelectionViewController.framework; path = RMDateSelectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE86522D4C3A323EF88B5A05B14EA01 /* RMDateSelectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMDateSelectionViewController.h; path = RMDateSelectionViewController/RMDateSelectionViewController.h; sourceTree = "<group>"; };
+		6EEE47E8FD0E78BF0F16E9BF0180A44A /* Pods-sonnikplusfree-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sonnikplusfree-acknowledgements.plist"; sourceTree = "<group>"; };
+		72169B3A23D13B8DF39E4828D313B6EA /* SBJson5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5.h; path = Classes/SBJson5.h; sourceTree = "<group>"; };
+		754261B0E5361528631DE880CD8725B9 /* SBJson5StreamParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5StreamParser.h; path = Classes/SBJson5StreamParser.h; sourceTree = "<group>"; };
+		75C4E512F670797B655CAB9A6E320DDF /* UIView+RMActionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RMActionController.h"; path = "RMActionController/Categories/UIView+RMActionController.h"; sourceTree = "<group>"; };
+		7A701ADCD2DBFC866F1B7A7AAEE48B37 /* SBJson-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SBJson-dummy.m"; sourceTree = "<group>"; };
+		7FF34FB349889E30D80280E25FA4202A /* SBJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SBJson.framework; path = SBJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5F9DA36806D5CC7D31BCC3609AAF85 /* RMScrollableGroupedAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMScrollableGroupedAction.m; path = "RMActionController/Grouping Actions/RMScrollableGroupedAction.m"; sourceTree = "<group>"; };
+		8B0FF9AC0A79D39EDAF0A8AE4284EE97 /* SBJson-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBJson-umbrella.h"; sourceTree = "<group>"; };
+		8B4F274E77AACCAAB7751EF8C027ACCD /* SBJson.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SBJson.modulemap; sourceTree = "<group>"; };
+		947B30CC81201504001D1BF9D0BDD082 /* RMDateSelectionViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMDateSelectionViewController-prefix.pch"; sourceTree = "<group>"; };
+		955DD93D5F1FB9B134F2BA22B356949F /* NSProcessInfo+RMActionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSProcessInfo+RMActionController.m"; path = "RMActionController/Categories/NSProcessInfo+RMActionController.m"; sourceTree = "<group>"; };
+		97384AE2D7715B06CF36B3571CCE8D70 /* RMDateSelectionViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RMDateSelectionViewController-Info.plist"; sourceTree = "<group>"; };
+		9782DC6E83783F67AB4C463A5E2D21A6 /* RMActionControllerTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMActionControllerTransition.m; path = RMActionController/Animations/RMActionControllerTransition.m; sourceTree = "<group>"; };
+		9D480025A9AADCAD04CA54488A788AA0 /* SBJson5StreamParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5StreamParser.m; path = Classes/SBJson5StreamParser.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0C94B5DDE9E4620A40FCB109D5F842E /* SBJson5StreamWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5StreamWriter.m; path = Classes/SBJson5StreamWriter.m; sourceTree = "<group>"; };
+		A101539E7B188E827CBAA6944721241A /* Pods-sonnikplusfree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sonnikplusfree.debug.xcconfig"; sourceTree = "<group>"; };
+		A2616803803601591D9F77E2F4452E3D /* SBJson5StreamParserState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5StreamParserState.m; path = Classes/SBJson5StreamParserState.m; sourceTree = "<group>"; };
+		A5203C60CE78503CBF405FA25F789045 /* RMActionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMActionController-umbrella.h"; sourceTree = "<group>"; };
+		A5386400EF4E7A4C046ECD95A6754C15 /* RMActionControllerTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMActionControllerTransition.h; path = RMActionController/Animations/RMActionControllerTransition.h; sourceTree = "<group>"; };
+		A71965EEDC497DFD2DECCB7144F5984E /* RMScrollableGroupedAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMScrollableGroupedAction.h; path = "RMActionController/Grouping Actions/RMScrollableGroupedAction.h"; sourceTree = "<group>"; };
+		ADB9BE427CAD08FAA66A4647A0DAB13D /* NSProcessInfo+RMActionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSProcessInfo+RMActionController.h"; path = "RMActionController/Categories/NSProcessInfo+RMActionController.h"; sourceTree = "<group>"; };
+		AE7AF3E6B99E92592244F13669753584 /* Pods-sonnikplusfree-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sonnikplusfree-Info.plist"; sourceTree = "<group>"; };
+		B3CEBE8C7C50694441C034FD0848C907 /* SBJson5StreamTokeniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5StreamTokeniser.h; path = Classes/SBJson5StreamTokeniser.h; sourceTree = "<group>"; };
+		BB8ABF75698479AA8AF00FD5581AF445 /* RMActionController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RMActionController-Info.plist"; sourceTree = "<group>"; };
+		BC437AE0CB147D1F04A3A288141EB2B3 /* Pods-sonnikplusfree-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sonnikplusfree-dummy.m"; sourceTree = "<group>"; };
+		BCBB664F178F68A3FDE2415BB79E37B3 /* SBJson5StreamWriterState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5StreamWriterState.h; path = Classes/SBJson5StreamWriterState.h; sourceTree = "<group>"; };
+		C8981ACC669D8C09F02CAEC21C971F67 /* Pods-sonnikplusfree.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sonnikplusfree.modulemap"; sourceTree = "<group>"; };
+		CE6E1B532B12345C20445A989599C31E /* RMActionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RMActionController.modulemap; sourceTree = "<group>"; };
+		D53CF14E73EBA3A4C1D36CD48CD3B653 /* RMActionController+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RMActionController+Private.h"; path = "RMActionController/Private/RMActionController+Private.h"; sourceTree = "<group>"; };
+		D887967D21EACBEE0E80E0AE04DEFC5F /* RMActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RMActionController.framework; path = RMActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97D94A75C5397803E4CA75DB943785B /* RMGroupedAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMGroupedAction.h; path = "RMActionController/Grouping Actions/RMGroupedAction.h"; sourceTree = "<group>"; };
+		DE4E1ACDA228F865ACE240664551B8E3 /* Pods_sonnikplusfree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sonnikplusfree.framework; path = "Pods-sonnikplusfree.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E006D9B9A9CB21CC0F5BEBEC06C0C350 /* RMDateSelectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMDateSelectionViewController.m; path = RMDateSelectionViewController/RMDateSelectionViewController.m; sourceTree = "<group>"; };
+		E51E601B5C99872A3D61E92115556164 /* RMActionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMActionController-prefix.pch"; sourceTree = "<group>"; };
+		E88E1477D1994B9DC6AC3AD03654CE98 /* SBJson5Writer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5Writer.m; path = Classes/SBJson5Writer.m; sourceTree = "<group>"; };
+		E92378D56A9BAA278FF9C2476E2A287B /* SBJson5StreamWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson5StreamWriter.h; path = Classes/SBJson5StreamWriter.h; sourceTree = "<group>"; };
+		ED9373AC20B608794B31A25AAD2F6D9E /* SBJson5StreamTokeniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson5StreamTokeniser.m; path = Classes/SBJson5StreamTokeniser.m; sourceTree = "<group>"; };
+		F0E596C8358DBC6F5CD0D7ED9F4EB436 /* RMGroupedAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMGroupedAction.m; path = "RMActionController/Grouping Actions/RMGroupedAction.m"; sourceTree = "<group>"; };
+		F2CFC4BA74D1931A1793A7101B38BCAB /* RMImageAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMImageAction.h; path = RMActionController/Actions/RMImageAction.h; sourceTree = "<group>"; };
+		F45E2DBBA89E7CA2B439C009A4569FBE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FF7A56029F23AACB54497DAC411B0CFF /* SBJson.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SBJson.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08677A322B01192723913C8D0456F932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E590E44DC44D41E6D885C850E935D3A /* CoreGraphics.framework in Frameworks */,
+				BF1E28A40F72A8BDDEE5D47E09A6870D /* Foundation.framework in Frameworks */,
+				08E5644C94C68BFE777C2762A06B673B /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0C6144E6F068FE538A7A9ED21B1973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D2946F049D717BAAAB52F8A941B519 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6046772F4D564C6D7356F8B74F1B3101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05D7A7E470E56150B33C024FE13B4F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD48796BEBAE76E19B00D45355BD4280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3405109996F97E7CE1A6E6FDA553C7 /* Foundation.framework in Frameworks */,
+				26B7F2CD0547E58D0D4BE63EF21D4016 /* RMActionController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A67257E142CC2B4E0FB196D619C9695 /* RMActionController */ = {
+			isa = PBXGroup;
+			children = (
+				ADB9BE427CAD08FAA66A4647A0DAB13D /* NSProcessInfo+RMActionController.h */,
+				955DD93D5F1FB9B134F2BA22B356949F /* NSProcessInfo+RMActionController.m */,
+				2C74968A44789F9FBDB56D03491231A5 /* RMAction.h */,
+				61DD047F6E40FF6551F7548A1A4CBEE0 /* RMAction.m */,
+				1C1F54FB2F32775BD6485D4112697609 /* RMAction+Private.h */,
+				45059B2C0325D2B9EE08702EF9270479 /* RMActionController.h */,
+				3D4DE9C2D9C68773B61EE634E15A806C /* RMActionController.m */,
+				D53CF14E73EBA3A4C1D36CD48CD3B653 /* RMActionController+Private.h */,
+				A5386400EF4E7A4C046ECD95A6754C15 /* RMActionControllerTransition.h */,
+				9782DC6E83783F67AB4C463A5E2D21A6 /* RMActionControllerTransition.m */,
+				D97D94A75C5397803E4CA75DB943785B /* RMGroupedAction.h */,
+				F0E596C8358DBC6F5CD0D7ED9F4EB436 /* RMGroupedAction.m */,
+				F2CFC4BA74D1931A1793A7101B38BCAB /* RMImageAction.h */,
+				269DA67761E21D79EBB2AA6F492486F3 /* RMImageAction.m */,
+				A71965EEDC497DFD2DECCB7144F5984E /* RMScrollableGroupedAction.h */,
+				8A5F9DA36806D5CC7D31BCC3609AAF85 /* RMScrollableGroupedAction.m */,
+				75C4E512F670797B655CAB9A6E320DDF /* UIView+RMActionController.h */,
+				31436615EB844C3F0B4FC356766C2491 /* UIView+RMActionController.m */,
+				4A13C562D640F1BA409B2E1C7A9E2B07 /* Support Files */,
+			);
+			name = RMActionController;
+			path = RMActionController;
+			sourceTree = "<group>";
+		};
+		4A13C562D640F1BA409B2E1C7A9E2B07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E1B532B12345C20445A989599C31E /* RMActionController.modulemap */,
+				372576338328AF306F95F2906AB5E864 /* RMActionController.xcconfig */,
+				6A65BEB57D4A48252123C5E9A3FAC7BB /* RMActionController-dummy.m */,
+				BB8ABF75698479AA8AF00FD5581AF445 /* RMActionController-Info.plist */,
+				E51E601B5C99872A3D61E92115556164 /* RMActionController-prefix.pch */,
+				A5203C60CE78503CBF405FA25F789045 /* RMActionController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RMActionController";
+			sourceTree = "<group>";
+		};
+		61274FDCAFBD0178B587254ECC5691F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE4E1ACDA228F865ACE240664551B8E3 /* Pods_sonnikplusfree.framework */,
+				D887967D21EACBEE0E80E0AE04DEFC5F /* RMActionController.framework */,
+				6CFE0C9040A06185F837D6D253190007 /* RMDateSelectionViewController.framework */,
+				7FF34FB349889E30D80280E25FA4202A /* SBJson.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		695BEA742E8C007DFBD85CD2256911F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B4F274E77AACCAAB7751EF8C027ACCD /* SBJson.modulemap */,
+				FF7A56029F23AACB54497DAC411B0CFF /* SBJson.xcconfig */,
+				7A701ADCD2DBFC866F1B7A7AAEE48B37 /* SBJson-dummy.m */,
+				477EF4A5D166F400965FFCBC3956A8D1 /* SBJson-Info.plist */,
+				5909420E9A0372BCE0B267A16923B45B /* SBJson-prefix.pch */,
+				8B0FF9AC0A79D39EDAF0A8AE4284EE97 /* SBJson-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SBJson";
+			sourceTree = "<group>";
+		};
+		732BDCC27F9AF9585A9DFA43429977AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FEDB04529220CF06B5E17A1B5D2881B /* RMActionController.framework */,
+				AF5637EFA7C7FB482764DC4CDCA15F69 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D9A63C97D0D6B2CCDDE38C6A6045CBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31BE2417B2271BA61AD65689D82438B6 /* RMDateSelectionViewController.modulemap */,
+				42658A08A293802D4AE3B2B488708437 /* RMDateSelectionViewController.xcconfig */,
+				231E8C9BAC8BB38108FC9E3260574852 /* RMDateSelectionViewController-dummy.m */,
+				97384AE2D7715B06CF36B3571CCE8D70 /* RMDateSelectionViewController-Info.plist */,
+				947B30CC81201504001D1BF9D0BDD082 /* RMDateSelectionViewController-prefix.pch */,
+				4AA8AE4EE4B43B981A75DD6D25EE1C90 /* RMDateSelectionViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RMDateSelectionViewController";
+			sourceTree = "<group>";
+		};
+		9ED23AE06A3DE53C824206F4F4C0EE00 /* Pods-sonnikplusfree */ = {
+			isa = PBXGroup;
+			children = (
+				C8981ACC669D8C09F02CAEC21C971F67 /* Pods-sonnikplusfree.modulemap */,
+				2093124C86838081C9F6555A77265F09 /* Pods-sonnikplusfree-acknowledgements.markdown */,
+				6EEE47E8FD0E78BF0F16E9BF0180A44A /* Pods-sonnikplusfree-acknowledgements.plist */,
+				BC437AE0CB147D1F04A3A288141EB2B3 /* Pods-sonnikplusfree-dummy.m */,
+				29B0896E224D3551E2495E518CD33D15 /* Pods-sonnikplusfree-frameworks.sh */,
+				AE7AF3E6B99E92592244F13669753584 /* Pods-sonnikplusfree-Info.plist */,
+				18AF9DE3C11A94F7A8A5B8CA0F299628 /* Pods-sonnikplusfree-umbrella.h */,
+				A101539E7B188E827CBAA6944721241A /* Pods-sonnikplusfree.debug.xcconfig */,
+				096682A4E52FF9D765C029006194D1A9 /* Pods-sonnikplusfree.release.xcconfig */,
+			);
+			name = "Pods-sonnikplusfree";
+			path = "Target Support Files/Pods-sonnikplusfree";
+			sourceTree = "<group>";
+		};
+		AF5637EFA7C7FB482764DC4CDCA15F69 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				141DD0E20DABAB6AA831C79639F0E94F /* CoreGraphics.framework */,
+				2BA4ADE95EE56E14DF7A4E573F31B1B0 /* Foundation.framework */,
+				F45E2DBBA89E7CA2B439C009A4569FBE /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CBF9270A03EE38339352B55AA84A4155 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ED23AE06A3DE53C824206F4F4C0EE00 /* Pods-sonnikplusfree */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				732BDCC27F9AF9585A9DFA43429977AB /* Frameworks */,
+				EEE958DB89F40A5B7A9EF94CB6703E31 /* Pods */,
+				61274FDCAFBD0178B587254ECC5691F4 /* Products */,
+				CBF9270A03EE38339352B55AA84A4155 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4190AA47DACAFAB9BE8775B57CF99E9 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				72169B3A23D13B8DF39E4828D313B6EA /* SBJson5.h */,
+				417E6706F33CB1BB18C658CB0748E995 /* SBJson5Parser.h */,
+				42D4277149FB77536238B9050AC81D95 /* SBJson5Parser.m */,
+				754261B0E5361528631DE880CD8725B9 /* SBJson5StreamParser.h */,
+				9D480025A9AADCAD04CA54488A788AA0 /* SBJson5StreamParser.m */,
+				145CAAAE23934BFEC2E8A39EE80C1FCE /* SBJson5StreamParserState.h */,
+				A2616803803601591D9F77E2F4452E3D /* SBJson5StreamParserState.m */,
+				B3CEBE8C7C50694441C034FD0848C907 /* SBJson5StreamTokeniser.h */,
+				ED9373AC20B608794B31A25AAD2F6D9E /* SBJson5StreamTokeniser.m */,
+				E92378D56A9BAA278FF9C2476E2A287B /* SBJson5StreamWriter.h */,
+				A0C94B5DDE9E4620A40FCB109D5F842E /* SBJson5StreamWriter.m */,
+				BCBB664F178F68A3FDE2415BB79E37B3 /* SBJson5StreamWriterState.h */,
+				4EBD5DD27C78B12C3C2F0B8D62A36B56 /* SBJson5StreamWriterState.m */,
+				1E2E87740DF6C111F7B0ED515658F7C6 /* SBJson5Writer.h */,
+				E88E1477D1994B9DC6AC3AD03654CE98 /* SBJson5Writer.m */,
+				695BEA742E8C007DFBD85CD2256911F1 /* Support Files */,
+			);
+			name = SBJson;
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+		ED7545057A0797454A292E5824837DC1 /* RMDateSelectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6DE86522D4C3A323EF88B5A05B14EA01 /* RMDateSelectionViewController.h */,
+				E006D9B9A9CB21CC0F5BEBEC06C0C350 /* RMDateSelectionViewController.m */,
+				9D9A63C97D0D6B2CCDDE38C6A6045CBA /* Support Files */,
+			);
+			name = RMDateSelectionViewController;
+			path = RMDateSelectionViewController;
+			sourceTree = "<group>";
+		};
+		EEE958DB89F40A5B7A9EF94CB6703E31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A67257E142CC2B4E0FB196D619C9695 /* RMActionController */,
+				ED7545057A0797454A292E5824837DC1 /* RMDateSelectionViewController */,
+				D4190AA47DACAFAB9BE8775B57CF99E9 /* SBJson */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39543B255C5F9F0C85AD61456603B651 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73727D1D58078AB16733A715EE9AFECA /* Pods-sonnikplusfree-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B7289CA327E88A0FAB24DAF7B11586 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4055ED8C143BFCD482F48EDDF275EB /* RMDateSelectionViewController-umbrella.h in Headers */,
+				D93F7AE6F13FF69024C29B4C904D5363 /* RMDateSelectionViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9359C854D38C6041D2B755C3A8C19E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB640AD16C2EBCB068923628EB27B031 /* SBJson-umbrella.h in Headers */,
+				9DD801491C09E555C3C9ED02B272AB45 /* SBJson5.h in Headers */,
+				1E17CC78630853EE3F2C61F1F3B51581 /* SBJson5Parser.h in Headers */,
+				06C5F39364549655E896F20F95E76944 /* SBJson5StreamParser.h in Headers */,
+				BA50284AFA0D06E0328E002EAE96A2A4 /* SBJson5StreamParserState.h in Headers */,
+				29FEF8E83DD1157174AEAF38A150235E /* SBJson5StreamTokeniser.h in Headers */,
+				1F4ADE47CEE262676EB6AD4C57B75097 /* SBJson5StreamWriter.h in Headers */,
+				1A73416AEE54FB9403C49A58F3D7AD19 /* SBJson5StreamWriterState.h in Headers */,
+				BBAA9B33FACC23E6EB71C5795990AF4B /* SBJson5Writer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F599FF502DD2E82ECA975E6922638C50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008B22CE269DF0502434CE849725F345 /* NSProcessInfo+RMActionController.h in Headers */,
+				B2DF7BD75306C8FD5192D210D0CC2773 /* RMAction+Private.h in Headers */,
+				53B44B2447B6B2D2A3C826225CEC72E6 /* RMAction.h in Headers */,
+				F886369FD3987EEE9F3BFE534C2A01B9 /* RMActionController+Private.h in Headers */,
+				7C23770F8117BA7C8D0323F980FA42B7 /* RMActionController-umbrella.h in Headers */,
+				ECD9D59414DCED93897AF1375BC46D4A /* RMActionController.h in Headers */,
+				14E568B00CBAAF27664CA799DC0A3130 /* RMActionControllerTransition.h in Headers */,
+				C079CCF335568E6CDFC720E905399693 /* RMGroupedAction.h in Headers */,
+				EBD3C5870E7CD6196BDF9F6C3B58D660 /* RMImageAction.h in Headers */,
+				24814C2D291BE7EE0556949D19417169 /* RMScrollableGroupedAction.h in Headers */,
+				EB4A3DD764B9E7B852D28CCBEA69E202 /* UIView+RMActionController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2017E61AD618DCB7EE58F8E509625A8F /* RMActionController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7644D44B29F685C7DF9098A9502426BA /* Build configuration list for PBXNativeTarget "RMActionController" */;
+			buildPhases = (
+				F599FF502DD2E82ECA975E6922638C50 /* Headers */,
+				25E9F24145D87C79DB9C3061220FEB0C /* Sources */,
+				08677A322B01192723913C8D0456F932 /* Frameworks */,
+				E387D29742316EE53681AD1477408916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMActionController;
+			productName = RMActionController;
+			productReference = D887967D21EACBEE0E80E0AE04DEFC5F /* RMActionController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2528AC12E1A49228635B775504DBD0A8 /* Pods-sonnikplusfree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156DC1A46FFAB57969CB17634A7E229B /* Build configuration list for PBXNativeTarget "Pods-sonnikplusfree" */;
+			buildPhases = (
+				39543B255C5F9F0C85AD61456603B651 /* Headers */,
+				E81B69D2800AAB67A4109799ADE4193A /* Sources */,
+				6046772F4D564C6D7356F8B74F1B3101 /* Frameworks */,
+				B430D9CAC1A499217FC87B82C20F067A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D263B20CA0D61E6471B5146A99C380E3 /* PBXTargetDependency */,
+				A41FEDA5D66305BA9AEF62FD0FFE16E9 /* PBXTargetDependency */,
+				6A20A9D10372B360D002757CD001D6B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-sonnikplusfree";
+			productName = "Pods-sonnikplusfree";
+			productReference = DE4E1ACDA228F865ACE240664551B8E3 /* Pods_sonnikplusfree.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		827A1FF3A7B59A7D0D5FAEF9F4F80D2B /* RMDateSelectionViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A37616B7DA01577FCA48D14E281934 /* Build configuration list for PBXNativeTarget "RMDateSelectionViewController" */;
+			buildPhases = (
+				70B7289CA327E88A0FAB24DAF7B11586 /* Headers */,
+				7921F5C75C7035AA116599D3211E581F /* Sources */,
+				FD48796BEBAE76E19B00D45355BD4280 /* Frameworks */,
+				DDE933B903383EBFF53D86070C46B647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08E033297CDAA767A7DDE3B241BF7D5F /* PBXTargetDependency */,
+			);
+			name = RMDateSelectionViewController;
+			productName = RMDateSelectionViewController;
+			productReference = 6CFE0C9040A06185F837D6D253190007 /* RMDateSelectionViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1FB7A84A6478260686277FEF687F8B4 /* SBJson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A2F03367CE3E73674F92BB5DB22BE6 /* Build configuration list for PBXNativeTarget "SBJson" */;
+			buildPhases = (
+				B9359C854D38C6041D2B755C3A8C19E5 /* Headers */,
+				EBFFC522322E71D914AB80FC3DAEC656 /* Sources */,
+				5B0C6144E6F068FE538A7A9ED21B1973 /* Frameworks */,
+				3EB37BC0C616A1A92B1EBF606A49D3D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBJson;
+			productName = SBJson;
+			productReference = 7FF34FB349889E30D80280E25FA4202A /* SBJson.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 61274FDCAFBD0178B587254ECC5691F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2528AC12E1A49228635B775504DBD0A8 /* Pods-sonnikplusfree */,
+				2017E61AD618DCB7EE58F8E509625A8F /* RMActionController */,
+				827A1FF3A7B59A7D0D5FAEF9F4F80D2B /* RMDateSelectionViewController */,
+				D1FB7A84A6478260686277FEF687F8B4 /* SBJson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EB37BC0C616A1A92B1EBF606A49D3D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B430D9CAC1A499217FC87B82C20F067A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE933B903383EBFF53D86070C46B647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E387D29742316EE53681AD1477408916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25E9F24145D87C79DB9C3061220FEB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D44C20D06BA9A8BCC1E7A092D17457 /* NSProcessInfo+RMActionController.m in Sources */,
+				0911DF5E9EFBEFB93314AD4DF914CFF8 /* RMAction.m in Sources */,
+				61990A5577A621CB90071D03D676FC52 /* RMActionController-dummy.m in Sources */,
+				A22A638FCFB9AF58458CBCC458DCE802 /* RMActionController.m in Sources */,
+				12AC079C08DE6469BDD8325A22A4545A /* RMActionControllerTransition.m in Sources */,
+				CB95FF28DEEDC09CAF26DE1B464033FE /* RMGroupedAction.m in Sources */,
+				F0C2CDA6DDFF29E60A018BA5AA26CE02 /* RMImageAction.m in Sources */,
+				F0FCF70DADB31ADD408EFF1097854518 /* RMScrollableGroupedAction.m in Sources */,
+				2BE7B1460EF4C07963C80E026D3B29E0 /* UIView+RMActionController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7921F5C75C7035AA116599D3211E581F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF6DA1476E7943BD34BBF53B0D448F5 /* RMDateSelectionViewController-dummy.m in Sources */,
+				E0AFC3329B7578429811DD5418DB0286 /* RMDateSelectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81B69D2800AAB67A4109799ADE4193A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3948A6F55E96C24A3B2E250B6AE807D /* Pods-sonnikplusfree-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFFC522322E71D914AB80FC3DAEC656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB511A7A446023400EC4175447EEEEAB /* SBJson-dummy.m in Sources */,
+				5E8538A889EC73B41C877FB38A8B38C2 /* SBJson5Parser.m in Sources */,
+				53F5DF9F3C3ACE8AEE8A27BD2439704F /* SBJson5StreamParser.m in Sources */,
+				E9CB6D75A7F10AF8F440E3BF13ACF2F3 /* SBJson5StreamParserState.m in Sources */,
+				9883D79E49720FCDF7366CC98E998896 /* SBJson5StreamTokeniser.m in Sources */,
+				E2337EAB1E841F2BC4B10F084A35E814 /* SBJson5StreamWriter.m in Sources */,
+				D676D1D216AF7F9313E71D2786100C20 /* SBJson5StreamWriterState.m in Sources */,
+				B564E266643C769F1AC2B0301BBE5F99 /* SBJson5Writer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08E033297CDAA767A7DDE3B241BF7D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMActionController;
+			target = 2017E61AD618DCB7EE58F8E509625A8F /* RMActionController */;
+			targetProxy = C8436AA8879F96F6B67B3DE6DD3B1BC4 /* PBXContainerItemProxy */;
+		};
+		6A20A9D10372B360D002757CD001D6B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SBJson;
+			target = D1FB7A84A6478260686277FEF687F8B4 /* SBJson */;
+			targetProxy = 3FFB7D17CF3DE0668F3B0D4E6F61001E /* PBXContainerItemProxy */;
+		};
+		A41FEDA5D66305BA9AEF62FD0FFE16E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMDateSelectionViewController;
+			target = 827A1FF3A7B59A7D0D5FAEF9F4F80D2B /* RMDateSelectionViewController */;
+			targetProxy = 45820205F740072E27EE583C2FD637FE /* PBXContainerItemProxy */;
+		};
+		D263B20CA0D61E6471B5146A99C380E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMActionController;
+			target = 2017E61AD618DCB7EE58F8E509625A8F /* RMActionController */;
+			targetProxy = 7A238D7543F26B8AD8D4E39CFEFD1022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		72FC67E0E5C8056279982EB0F4F3D686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7A56029F23AACB54497DAC411B0CFF /* SBJson.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SBJson/SBJson-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SBJson/SBJson-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SBJson/SBJson.modulemap";
+				PRODUCT_MODULE_NAME = SBJson;
+				PRODUCT_NAME = SBJson;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		747E1015188B699104B50272079352F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372576338328AF306F95F2906AB5E864 /* RMActionController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RMActionController/RMActionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMActionController/RMActionController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMActionController/RMActionController.modulemap";
+				PRODUCT_MODULE_NAME = RMActionController;
+				PRODUCT_NAME = RMActionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7745D09CA062AC5DCA848B84B453DDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42658A08A293802D4AE3B2B488708437 /* RMDateSelectionViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController.modulemap";
+				PRODUCT_MODULE_NAME = RMDateSelectionViewController;
+				PRODUCT_NAME = RMDateSelectionViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93761E92953DB5BF120C1BDB2F19BED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42658A08A293802D4AE3B2B488708437 /* RMDateSelectionViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController.modulemap";
+				PRODUCT_MODULE_NAME = RMDateSelectionViewController;
+				PRODUCT_NAME = RMDateSelectionViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE64264582D2A138FF94EF375DEF436B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372576338328AF306F95F2906AB5E864 /* RMActionController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RMActionController/RMActionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMActionController/RMActionController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMActionController/RMActionController.modulemap";
+				PRODUCT_MODULE_NAME = RMActionController;
+				PRODUCT_NAME = RMActionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4DAD8DFD7305174E930F6F26202FCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7A56029F23AACB54497DAC411B0CFF /* SBJson.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SBJson/SBJson-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SBJson/SBJson-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SBJson/SBJson.modulemap";
+				PRODUCT_MODULE_NAME = SBJson;
+				PRODUCT_NAME = SBJson;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE29038266A852C7ADF439E2E8645591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A101539E7B188E827CBAA6944721241A /* Pods-sonnikplusfree.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sonnikplusfree/Pods-sonnikplusfree-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sonnikplusfree/Pods-sonnikplusfree.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF1BA82E5A71593B89A16D532E3B4B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096682A4E52FF9D765C029006194D1A9 /* Pods-sonnikplusfree.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sonnikplusfree/Pods-sonnikplusfree-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sonnikplusfree/Pods-sonnikplusfree.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		156DC1A46FFAB57969CB17634A7E229B /* Build configuration list for PBXNativeTarget "Pods-sonnikplusfree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE29038266A852C7ADF439E2E8645591 /* Debug */,
+				EF1BA82E5A71593B89A16D532E3B4B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7644D44B29F685C7DF9098A9502426BA /* Build configuration list for PBXNativeTarget "RMActionController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747E1015188B699104B50272079352F2 /* Debug */,
+				DE64264582D2A138FF94EF375DEF436B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A37616B7DA01577FCA48D14E281934 /* Build configuration list for PBXNativeTarget "RMDateSelectionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7745D09CA062AC5DCA848B84B453DDB3 /* Debug */,
+				93761E92953DB5BF120C1BDB2F19BED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4A2F03367CE3E73674F92BB5DB22BE6 /* Build configuration list for PBXNativeTarget "SBJson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FC67E0E5C8056279982EB0F4F3D686 /* Debug */,
+				E4DAD8DFD7305174E930F6F26202FCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

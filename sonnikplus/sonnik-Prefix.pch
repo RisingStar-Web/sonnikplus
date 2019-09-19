@@ -1,0 +1,16 @@
+//
+// Prefix header for all source files of the 'sonnikplus' target in the 'sonnikplus' project
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "AppDelegate.h"
+#import "Singleton.h"
+
+#define SharedAppDelegate ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+
+#endif
